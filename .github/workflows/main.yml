@@ -22,7 +22,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/10
-        defconfig: defconfig
+        defconfig: misc_debug_defconfig
         image: Image.gz-dtb
 
     - name: Upload Kernel and Module
