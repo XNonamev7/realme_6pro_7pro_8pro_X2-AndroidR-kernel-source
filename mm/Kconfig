@@ -876,7 +876,7 @@ config PROCESS_RECLAIM_ENHANCE
 #endif /* OPLUS_FEATURE_PROCESS_RECLAIM */
 
 #ifdef OPLUS_FEATURE_HEALTHINFO
-source "mm/oppo_healthinfo/Kconfig"
+#source "mm/oppo_healthinfo/Kconfig"
 #endif /* OPLUS_FEATURE_HEALTHINFO */
 
 #ifdef OPLUS_FEATURE_MULTI_FREEAREA
